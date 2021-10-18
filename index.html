@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>List & Table in HTML</title>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Layout header</h1>
+        </header>
+        <nav>
+            <a href="https://www.google.com/">Link to Google</a> |
+            <a href="https://gioiarobert5.wixsite.com/gamedesign">Link of Rob Gioia - teacher's link</a> |
+            <a href="https://csaba79-coder.github.io/">My website's link</a> |
+            <a href="https://www.ask.com/">Link to Ask.com</a>
+        </nav>
+
+        <section>
+            <h2>Section 1 heading</h2>
+            <p>Section 1 content</p>
+        </section>
+
+        <article>
+            <h3>Article heading</h3>
+            <p>Article content</p>
+        </article>
+
+        <aside>
+            <h4>Aside heding</h4>
+            <p>Aside content</p>
+        </aside>
+
+        <details>
+            <summary>Click here to expand/collapse details</summary>
+            <p>Here are more details about what you clicked on</p>
+        </details>
+
+        <footer>Layout footer</footer>
+
+        <h3>Table</h3>
+        
+        <table>
+
+            <caption>Table Caption</caption>
+
+            <thead>
+                <tr>
+                    <!-- th tag is the heading of the cells! (coloum)-->
+                    <th>Column 1 heading</th>
+                    <!-- will be in two rows the heading! -->
+                    <!-- <th rowspan="2">Column 1 heading</th> -->
+                    <!-- will be two columns under the heading! -->
+                    <!--<th colspan="2">Column 1 heading</th>-->
+                    <th>Column 2 heading</th>
+                    <th>Column 3 heading</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <!-- data that populates the cell is in between td tags! -->
+                    <td> Cell 1 </td>
+                    <td> Cell 2 </td>
+                    <td> Cell 3 </td>
+                </tr>
+                <tr>
+                    <td> Cell 4 </td>
+                    <td> Cell 5 </td>
+                    <td> Cell 6 </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Footer cell 1</td>
+                    <td>Footer cell 2</td>
+                    <td>Footer cell 3</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h3>Ordered lists</h3>
+        <ol>
+            <li>Pineapple</li>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Pear</li>
+        </ol>
+        <ol type="A">
+            <li>Pineapple</li>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Pear</li>
+        </ol>
+        <ol type="a">
+            <li>Pineapple</li>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Pear</li>
+        </ol>
+        <ol type="I">
+            <li>Pineapple</li>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Pear</li>
+        </ol>
+        <ol type="i">
+            <li>Pineapple</li>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Pear</li>
+        </ol>
+
+        <h3>Unordered lists</h3>
+        <p>Circle version of List</p>
+        <ul type="circle">
+            <li>Pineapple</li>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Pear</li>
+        </ul>
+        <p>Disc version of List</p>
+        <ul type="disc">
+            <li>Pineapple</li>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Pear</li>
+        </ul>
+        <p>Square version of List</p>
+        <ul type="Square">
+            <li>Pineapple</li>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Pear</li>
+        </ul>
+        <p>None version of List</p>
+        <ul type="none">
+            <li>Pineapple</li>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Pear</li>
+        </ul>
+
+        <h3>Description list</h3>
+        <dl>
+            <!-- dt is adding a term to our list! -->
+            <dt>HTML</dt>
+            <!-- definitions see bellow: -->
+            <dd>Hyper-text markup language</dd>
+            <dd>Allows us to add content to a webpage</dd>
+        </dl>
+
+        <h3>Nested list</h3>
+        <p>Lists can be nested (list inside list):</p>
+
+        <ul>
+            <li>Coffee</li>
+            <li>Tea
+              <ul>
+                <li>Black tea</li>
+                <li>Green tea</li>
+              </ul>
+            </li>
+            <li>Milk</li>
+          </ul>
+
+          <style>
+              thead{background-color: lightpink;}
+              tbody{color: red; background-color: yellowgreen;}
+              tfoot{font-style: italic; text-align: center;}
+              summary{color: green;}
+          </style>
+
+    </body>
+</html>
